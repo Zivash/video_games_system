@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginbkg"
+    android:gravity="center"
+    tools:context=".activities.MainActivity"
+    android:paddingTop="200dp"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/edittext_custom"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+            <EditText
+                android:id="@+id/textSeacrh"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_custom"
+                android:drawableLeft="@drawable/regular_search_icon"
+                android:drawablePadding="8dp"
+                android:hint="Search by name"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+            <EditText
+                android:id="@+id/textPublisher"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_custom"
+                android:drawableLeft="@drawable/publisher_icon"
+                android:drawablePadding="8dp"
+                android:hint="Search by publisher name"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+            <Button
+                android:id="@+id/datesButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@android:color/white"
+                android:text="Select released dates"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                app:strokeColor="@color/blue"
+                app:strokeWidth="3dp" />
+
+
+
+
+            <Button
+                android:id="@+id/genresButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Select genres"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:backgroundTint="@color/white"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="20dp"
+                app:strokeColor="@color/blue"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/platformsButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Select platforms"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:backgroundTint="@color/white"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="20dp"
+                app:strokeColor="@color/blue"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/searchButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Search"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/blue"
+                android:layout_marginTop="20dp"
+                app:cornerRadius="20dp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

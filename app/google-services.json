@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "637149353740",
+    "project_id": "hitproject21224",
+    "storage_bucket": "hitproject21224.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637149353740:android:8a2dc0558bc06049211b29",
+        "android_client_info": {
+          "package_name": "com.example.videogamessystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChXpQVANsE1Oy7nFk2Uwj92Is8fHIza_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

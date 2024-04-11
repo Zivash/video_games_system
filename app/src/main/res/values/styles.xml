@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlay.App.MaterialCalendar" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <!-- just override the colors used in the default style -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/blue</item>
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorControlNormal">@color/blue</item>   <!-- normal border color  -->
+        <item name="colorControlActivated">@color/blue</item> <!-- activated color  -->
+        <item name="android:textColor">@color/blue</item> <!-- text color -->
+    </style>
+
+    <style name="BlueOkButtonAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+</resources>

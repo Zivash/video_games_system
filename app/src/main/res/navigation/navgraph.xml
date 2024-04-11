@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/logInFragment">
+
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.example.videogamessystem.fragments.LogInFragment"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" >
+        <action
+            android:id="@+id/action_logInFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_logInFragment_to_mainGamesFragment"
+            app:destination="@id/mainGamesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.videogamessystem.fragments.RegisterFragment"
+        android:label="RegisterFragment" >
+        <action
+            android:id="@+id/action_registerFragment_to_mainGamesFragment"
+            app:destination="@id/mainGamesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainGamesFragment"
+        android:name="com.example.videogamessystem.fragments.MainGamesFragment"
+        android:label="MainGamesFragment" >
+        <action
+            android:id="@+id/action_mainGamesFragment_to_gamesListFragment"
+            app:destination="@id/gamesListFragment" />
+        <action
+            android:id="@+id/action_mainGamesFragment_to_searchByFragment"
+            app:destination="@id/searchByFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamesListFragment"
+        android:name="com.example.videogamessystem.fragments.GamesListFragment"
+        android:label="GamesListFragment" />
+    <fragment
+        android:id="@+id/searchByFragment"
+        android:name="com.example.videogamessystem.fragments.SearchByFragment"
+        android:label="fragment_search_by"
+        tools:layout="@layout/fragment_search_by" >
+        <action
+            android:id="@+id/action_searchByFragment_to_gamesListFragment"
+            app:destination="@id/gamesListFragment" />
+    </fragment>
+</navigation>
