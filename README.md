@@ -2,21 +2,6 @@
 
 This Android application provides a system for browsing, searching, and managing video games. The app allows users to explore games by their ratings, release dates, or search queries. Users can also add games to their favorite list and view detailed descriptions of each game.
 
-## Table of Contents
-
-1. [Features](#features)
-2. [Architecture](#architecture)
-3. [Dependencies](#dependencies)
-4. [Installation](#installation)
-   - [Clone the repository](#clone-the-repository)
-   - [Open the project in Android Studio](#open-the-project-in-android-studio)
-   - [Set up Firebase](#set-up-firebase)
-   - [Sync the project](#sync-the-project)
-   - [Build and run](#build-and-run)
-5. [Usage](#usage)
-   - [Main Features](#main-features)
-   - [User Authentication](#user-authentication)
-
 ## Features
 
 - **Games List**: Browse games based on various criteria such as Top Rated or Newest Games.
