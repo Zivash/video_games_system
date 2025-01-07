@@ -35,9 +35,6 @@ This project is a mobile application designed for managing and exploring video g
      &nbsp;&nbsp;&nbsp;
    <img src="https://github.com/user-attachments/assets/8320152d-c1ef-4019-8df9-c763e5c6a64d" width="300" />
      &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
    <img src="https://github.com/user-attachments/assets/03653510-10ed-4ff8-9472-829bae0c916a"width="300" />
      &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/user-attachments/assets/cc0038b8-f1ee-4331-9592-37034f8f46bb" width="300" />
